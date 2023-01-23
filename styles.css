@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+}
+
+nav {
+
+    height: 100px;
+    background-color: brown;
+    margin: 0px;
+}
+
+
+
+li {
+    display: inline-block color;
+}
+
+header {
+    margin: 0px;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+img {}
