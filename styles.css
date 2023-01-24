@@ -32,3 +32,29 @@ img {
     margin-right: auto;
 
 }
+
+article {
+    height: 300px;
+    border: 2px solid blue
+}
+
+aside {
+    width: 400px;
+    height: 700px;
+
+    float: left;
+    border: 3px solid blue;
+
+}
+
+div {
+    width: 650px;
+    height: 700px;
+    display: inline-block;
+    border: 2px solid black
+}
+
+footer {
+    height: 400px;
+    background-color: lightblue;
+}
