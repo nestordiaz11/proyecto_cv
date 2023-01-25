@@ -1,15 +1,46 @@
 * {
     margin: 0px;
+
+}
+
+body {
+    background-color: aliceblue;
 }
 
 nav {
 
-    height: 100px;
-    background-color: brown;
+    height: 60px;
+    width: 100%;
+    background-color: black;
     margin: 0px;
+    color: aliceblue;
+    position: fixed
 }
 
+#cv {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    float: left;
+    background-color: black;
+    text-justify: auto;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10;
+    padding-left: 10;
+    font-size: 25px;
+}
 
+nav ul li {
+    float: left;
+    margin-left: 90px;
+    margin-top: 20px
+}
 
 li {
     display: inline-block color;
@@ -17,8 +48,16 @@ li {
 
 header {
     margin: 0px;
-    height: 400px;
-    background-color: aquamarine;
+    height: 600px;
+    background-color: #243CFA;
+    color: aliceblue;
+}
+
+#titulo {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 80;
 }
 
 h2 {
@@ -33,9 +72,21 @@ img {
 
 }
 
+#boton_datos {
+    border: 1px solid white;
+    background-color: #042232;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    padding: 4px;
+    width: 300px;
+    color: aliceblue
+}
+
 article {
     height: 300px;
-    border: 2px solid blue
+    border: 2px solid blue;
+    margin: 20px;
 }
 
 aside {
@@ -43,7 +94,9 @@ aside {
     height: 700px;
 
     float: left;
-    border: 3px solid blue;
+    background-color: blue;
+    margin: 30px;
+    color: aliceblue;
 
 }
 
@@ -51,10 +104,29 @@ div {
     width: 650px;
     height: 700px;
     display: inline-block;
-    border: 2px solid black
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 70px;
 }
 
 footer {
     height: 400px;
-    background-color: lightblue;
+    background-color: #243CFA;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#notas {
+    border: 0px;
+    height: 250px;
+    width: 280px;
+    float: left;
+    margin: 30px;
+
+}
+
+#compu {
+    height: 250px;
+    width: 280px;
+
 }
