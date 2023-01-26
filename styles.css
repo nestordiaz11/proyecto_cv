@@ -49,9 +49,11 @@ li {
 header {
     margin: 0px;
     height: 600px;
-    background-color: #243CFA;
+
     color: aliceblue;
+    background-image: linear-gradient(to right, #38CEFF, #243cfa);
 }
+
 
 #titulo {
     margin-top: 100px;
@@ -74,44 +76,85 @@ img {
 
 #boton_datos {
     border: 1px solid white;
-    background-color: #042232;
+    background-color: #222;
     margin-left: auto;
     display: block;
     margin-right: auto;
-    padding: 4px;
+    padding: 15px;
     width: 300px;
-    color: aliceblue
+    color: aliceblue;
+    border-radius: 5px;
+
 }
 
 article {
     height: 300px;
-    border: 2px solid blue;
-    margin: 20px;
+    background-color: #222;
+    color: aliceblue;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+article h2 {
+    font-size: 35px
+}
+
+article p {
+    font-size: 22px;
+    padding: 30px;
+    text-align: justify;
 }
 
 aside {
     width: 400px;
     height: 700px;
+    border-radius: 10px;
 
     float: left;
-    background-color: blue;
+    background-image: linear-gradient(to right, darkblue, #243cfa);
     margin: 30px;
     color: aliceblue;
+    box-shadow: 10px 10px 15px #222;
 
 }
 
-div {
+aside h3 {
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+aside ul li {
+    padding: 12px;
+    margin-left: auto;
+}
+
+#experiencia {
+    margin-top: 30;
     width: 650px;
     height: 700px;
     display: inline-block;
     border: 2px solid black;
     margin-top: 30px;
     margin-left: 70px;
+    box-shadow: 10px 10px 20px #222;
+
+}
+
+#experiencia ul li {
+    padding: 7px;
+}
+
+#experiencia h3 {
+    text-align: center;
 }
 
 footer {
+    margin-top: 30px;
     height: 400px;
-    background-color: #243CFA;
+    background-image: linear-gradient(to right, #38CEFF, #243cfa);
+
     color: aliceblue;
     font-size: 20px;
 }
@@ -129,4 +172,14 @@ footer {
     height: 250px;
     width: 280px;
 
+}
+
+footer h2 {
+    margin-top: 30px;
+}
+
+footer ul li {
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 15px;
 }

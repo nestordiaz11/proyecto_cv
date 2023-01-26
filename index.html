@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto final de Nestor Omar Diaz</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/cc1f229bbd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,12 +16,10 @@
             <p>CV</p>
         </div>
         <ul>
-            <li>INICIO</li>
-            <li>PRESENTACION</li>
-            <li>HABILIDADES</li>
-            <li>EXPERIENCIA</li>
-            <li>CONTACTO</li>
-            <li>NOTAS</li>
+            <li><a href="#titulo"><i class="fa-solid fa-house"></i> INICIO </a></li>
+            <li> <a href="#estudios_experiencia"><i class="fa-solid fa-user-tie"></i>EXPERIENCIA </a></li>
+            <li> <a href="#formulario"><i class="fa-regular fa-handshake"></i> CONTACTO </a></li>
+            <li> <a href="#notas"> <i class="fa-solid fa-pen"></i>NOTAS</a></li>
         </ul>
     </nav>
     <header>
@@ -30,18 +29,21 @@
         <h1 id="titulo">Desarrollador Web Fullstack</h1>
         <img src="ejemplo_foto.jpg" alt="Foto de Perfil de Ejemplo">
         <h2>Anthony Adams</h2>
-        <button id="boton_datos"> VER DATOS PERSONALES</button>
+        <button id="boton_datos"><i class="fa-solid fa-magnifying-glass"></i> VER DATOS PERSONALES</button>
 
     </header>
     <article>
         <hr>
         <h2>PRESENTACION</h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui accusantium amet eaque suscipit aperiam
-            dolor, est ipsum ea blanditiis repellat et. Asperiores eius odit officiis adipisci repudiandae ipsum dolorum
-            nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minima, fuga eaque error dolores
-            aperiam omnis fugit quod ipsa modi dignissimos voluptatum. Consectetur excepturi repudiandae necessitatibus
-            ipsum odio, tempora eius.</p>
+        <p> Profesional del Desarrollo Web con más de diez años de experiencia en Frontend y Backend, como así tambien
+            poseo conocimientos de diseño, instalacion, puesta en producción, pruebas y mantenimiento de sistemas de
+            software. Manejo avanzado de distintas plataformas, lenguajes de programación y distintos frameworks en el
+            Backend y Frontend. Puedo trabajar en
+            forma independiente,freelance o en equipo con otros desarrolladores en un entornno corporativo.</p><br>
+        <br>
+        <hr>
     </article>
+    <hr>
     <aside>
         <h3>HABILIDADES</h3><br>
         <br>
@@ -77,19 +79,20 @@
             <li> Portugués</li>
         </ul>
     </aside>
-    <div>
-        <h2> Estudios y Certificaciones</h2>
+    <div id="experiencia">
+        <h2 id="estudios_experiencia"> <i class="fa-solid fa-user-graduate"></i>Estudios y Certificaciones</h2>
 
         <ul>
-            <li> Licenciatura en Ingeniería Infórmatica - Universidad Tecnologica de Michigan</li>
-            <li> Master en Ciencias Informaticas- Universidad de Buenos Aires</li>
-            <li> Master en Cloud Computing - Universidad de Colorado </li>
-            <li> Curso intensivo de Scrum - Universidad de Nevada</li>
-            <li> Master en Bases de Datos y SQL - Universidad de Cambridge</li>
+            <li> <strong>2010</strong> - Licenciatura en Ingeniería Infórmatica - Universidad Tecnologica de Michigan
+            </li>
+            <li><strong>2012 </strong> - Master en Ciencias Informaticas- Universidad de Buenos Aires</li>
+            <li> <strong>2015</strong> - Master en Cloud Computing - Universidad de Colorado </li>
+            <li> <strong>2016</strong> - Curso intensivo de Scrum - Universidad de Nevada</li>
+            <li> <strong>2020</strong>- Master en Bases de Datos y SQL - Universidad de Cambridge</li>
 
         </ul>
-        <h2> Experiencia Laboral </h2>
-        <h3> Tecnotronics - Pensilvania </h3>
+        <h2><i class="fa-solid fa-user-tie"></i> Experiencia Laboral </h2>
+        <h3> <strong> Años 2011 - 2017</strong> Tecnotronics </h3>
         <ul>
             <li> Colaboración en equipo con otros desarrolladores en para la creacion de Aplicaciones Multiplataforma
                 relacionadas con Blockchange</li>
@@ -98,14 +101,18 @@
             </li>
 
         </ul>
-        <h3>Logic Star</h3>
+        <h3> <strong> Años 2018 - 2022</strong> Logic Star</h3>
         <ul>
             <li>Tareas de Desarrollo tanto en forma independiente como colaborativa</li>
             <li>Realice tareas de testeo de aplicaciones UI para mejorar la performance de aplicaciones </li>
             <li> Colabore en el desarrollo de inplementacion de DevOps en la empresa para acelerar la implementacion en
                 produccion de aplicaciones Web</li>
         </ul>
+
     </div>
+
+    <hr>
+
     <section id="formulario">
 
         <h2>Para mayor Información, puede completar el siguiente formulario de Contacto</h2>
@@ -115,20 +122,21 @@
 
 
     </section>
+
+    <hr>
+
     <footer>
         <div id=notas>
             <img id="compu" src="https://cdn.pixabay.com/photo/2015/06/24/15/45/computer-820281_960_720.jpg"
                 alt="Imagen de Computadora y Libreta">
 
         </div>
-        <h2> Notas del Proyecto</h2>
+        <h2> <i class="fa-solid fa-pen"></i>Notas del Proyecto</h2>
         <ul>
-            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nesciunt veniam sapiente, sint ad enim
-                rerum, totam minima consectetur fugiat omnis deleniti laboriosam ex corporis. Delectus perspiciatis
-                numquam inventore nulla.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus unde minus esse suscipit, expedita
-                doloribus amet vero dolores asperiores ratione? Eius ad, praesentium excepturi reprehenderit ab possimus
-                alias consequatur minima.</li>
+            <li>El perfil y los datos del curriculum son ficticios, se utilizaron datos generados al azar de la página
+                RANDON USER GENERATOR.</li>
+            <li> Se ulizaron fuentes de GOOGLE FONTS e iconos de FONTAWESOME</li>
+            <li> Creado por Alumno NESTOR OMAR DIAZ</li>
         </ul>
 
     </footer>
