@@ -38,8 +38,18 @@ nav {
 
 nav ul li {
     float: left;
-    margin-left: 90px;
-    margin-top: 20px
+    margin-top: 5px;
+    margin-left: 50px;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+
+
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
 }
 
 li {
@@ -87,6 +97,25 @@ img {
 
 }
 
+#contenedor {
+    height: 60px;
+    width: 1100px;
+    margin-top: 20px;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#datos1 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+
 article {
     height: 300px;
     background-color: #222;
@@ -113,7 +142,9 @@ aside {
 
     float: left;
     background-image: linear-gradient(to right, darkblue, #243cfa);
-    margin: 30px;
+    margin-top: 90px;
+    margin-left: 40px;
+    margin-bottom: 50px;
     color: aliceblue;
     box-shadow: 10px 10px 15px #222;
 
@@ -131,19 +162,24 @@ aside ul li {
 }
 
 #experiencia {
-    margin-top: 30;
+    margin-top: 60px;
     width: 650px;
     height: 700px;
     display: inline-block;
     border: 2px solid black;
-    margin-top: 30px;
+    margin-top: 90px;
     margin-left: 70px;
+    margin-bottom: 50px;
     box-shadow: 10px 10px 20px #222;
 
 }
 
 #experiencia ul li {
     padding: 7px;
+}
+
+#experiencia h2 {
+    color: #B11414;
 }
 
 #experiencia h3 {

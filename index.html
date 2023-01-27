@@ -8,6 +8,7 @@
     <title>Proyecto final de Nestor Omar Diaz</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/cc1f229bbd.js" crossorigin="anonymous"></script>
+    <script src="funciones.js"></script>
 </head>
 
 <body>
@@ -16,10 +17,10 @@
             <p>CV</p>
         </div>
         <ul>
-            <li><a href="#titulo"><i class="fa-solid fa-house"></i> INICIO </a></li>
-            <li> <a href="#estudios_experiencia"><i class="fa-solid fa-user-tie"></i>EXPERIENCIA </a></li>
-            <li> <a href="#formulario"><i class="fa-regular fa-handshake"></i> CONTACTO </a></li>
-            <li> <a href="#notas"> <i class="fa-solid fa-pen"></i>NOTAS</a></li>
+            <li><a href="#titulo"><i class="fa-solid fa-house"></i> <br> INICIO </a></li>
+            <li> <a href="#experiencia"><i class="fa-solid fa-user-tie"></i> <br> EXPERIENCIA </a></li>
+            <li> <a href="#formulario"><i class="fa-regular fa-handshake"></i> <br> CONTACTO </a></li>
+            <li> <a href="#notas"> <i class="fa-solid fa-pen"></i> <br> NOTAS</a></li>
         </ul>
     </nav>
     <header>
@@ -29,7 +30,14 @@
         <h1 id="titulo">Desarrollador Web Fullstack</h1>
         <img src="ejemplo_foto.jpg" alt="Foto de Perfil de Ejemplo">
         <h2>Anthony Adams</h2>
-        <button id="boton_datos"><i class="fa-solid fa-magnifying-glass"></i> VER DATOS PERSONALES</button>
+        <button type="button" id="boton_datos"
+            onclick='document.getElementById("datos1").innerHTML= "Telefono: (766) 356-9721   Email: anthonyadams@gmail.com    Dirección: 1182 Macclellan Rd- Michigan - EE.UU. " '>
+            VER DATOS
+            PERSONALES</button>
+
+        <div id="contenedor">
+            <p id="datos1"></p>
+        </div>
 
     </header>
     <article>
@@ -79,6 +87,7 @@
             <li> Portugués</li>
         </ul>
     </aside>
+
     <div id="experiencia">
         <h2 id="estudios_experiencia"> <i class="fa-solid fa-user-graduate"></i>Estudios y Certificaciones</h2>
 
