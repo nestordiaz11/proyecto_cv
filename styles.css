@@ -186,6 +186,14 @@ aside ul li {
     text-align: center;
 }
 
+#formulario {
+
+    height: 900px;
+    width: 1000px;
+    border: 1 px solid black;
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/05/09/30/tablet-314153_960_720.png);
+}
+
 footer {
     margin-top: 30px;
     height: 400px;
