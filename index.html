@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/cc1f229bbd.js" crossorigin="anonymous"></script>
     <script src="funciones.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -123,11 +126,25 @@
     <hr>
     <h2>Para mayor Información, puede completar el siguiente formulario de Contacto</h2>
     <section id="formulario">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit excepturi suscipit dicta quo
-            praesentium odit tempore, explicabo alias deserunt veniam, adipisci hic, quidem aliquid reprehenderit
-            repudiandae nihil sint doloribus?</p>
 
+        <div id="container_form">
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre..">
 
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido..">
+
+                <label for="pais">País de Origen</label>
+                <select id="pais" name="pais">
+                    <option value="argentina">Argentina</option>
+                    <option value="estados_unidos">Estados Unidos</option>
+                    <option value="uruguañl">Uruguay</option>
+                </select>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
         <!-- <img src="https://cdn.pixabay.com/photo/2014/04/05/09/30/tablet-314153_960_720.png "
             alt=" imagen con formulario">
        -->
