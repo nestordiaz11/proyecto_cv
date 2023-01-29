@@ -33,15 +33,12 @@
         <h1 id="titulo">Desarrollador Web Fullstack</h1>
         <img src="ejemplo_foto.jpg" alt="Foto de Perfil de Ejemplo">
         <h2>Anthony Adams</h2>
-        <button type="button" id="boton_datos"
-            onclick='document.getElementById("datos1").innerHTML= "Telefono: (766) 356-9721   Email: anthonyadams@example.com    Dirección: 1182 Macclellan Rd- Michigan - EE.UU. " '>
-            VER DATOS
-            PERSONALES</button>
+        <button type="button" id="boton_datos"> VER DATOS PERSONALES </button>
 
-        <div id="contenedor">
-            <p id="datos1"></p>
+
+        <div id="para_datos">
+            <p id="datos1"> Esto es para Javascript</p>
         </div>
-
     </header>
     <article>
         <hr>
@@ -129,13 +126,13 @@
 
         <div id="container_form">
             <form>
-                <label for="nombre">Nombre</label>
+                <label for="nombre">Nombre</label><br>
                 <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre..">
 
-                <label for="apellido">Apellido</label>
+                <label for="apellido">Apellido</label><br>
                 <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido..">
 
-                <label for="pais">País de Origen</label>
+                <label for="pais">País de Origen</label><br>
                 <select id="pais" name="pais">
                     <option value="argentina">Argentina</option>
                     <option value="estados_unidos">Estados Unidos</option>
