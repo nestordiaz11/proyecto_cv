@@ -12,4 +12,8 @@ document.getElementById("boton_enviar").addEventListener("click", ver_consola);
 
 function ver_consola() {
     window.alert("Los datos estan siendo enviados a la consola");
+    let nombre = document.getElementById("nombre").value;
+    let apellido = document.getElementById("apellido").value;
+    let pais = document.getElementById("pais").value;
+    console.log(`El usuario se llama ${nombre} ${apellido} y reside en ${pais}`)
 };
