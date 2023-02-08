@@ -20,7 +20,7 @@
             <p>CV</p>
         </div>
         <ul>
-            <li><a href="#titulo"><i class="fa-solid fa-house"></i> <br> INICIO </a></li>
+            <li><a href="#presentacion"><i class="fa-solid fa-house"></i> <br> INICIO </a></li>
             <li> <a href="#experiencia"><i class="fa-solid fa-user-tie"></i> <br> EXPERIENCIA </a></li>
             <li> <a href="#formulario"><i class="fa-regular fa-handshake"></i> <br> CONTACTO </a></li>
             <li> <a href="#notas"> <i class="fa-solid fa-pen"></i> <br> NOTAS</a></li>
@@ -39,16 +39,29 @@
         <p id="datos1"></p>
 
     </header>
-    <article>
-        <hr>
+    <article id="presentacion">
         <h2>PRESENTACION</h2>
-        <p> Profesional del Desarrollo Web con más de diez años de experiencia en Frontend y Backend, como así tambien
+        <hr>
+
+        <!--<div id="imagen_presentacion">
+            <img id="imagen_oficina" src="https://cdn.pixabay.com/photo/2015/01/08/18/26/man-593333_640.jpg"
+                alt="Imagen de Oficina">
+        </div>-->
+
+
+        <p> Soy un profesional del Desarrollo Web con más de diez años de experiencia en Frontend y Backend, como
+            así
+            tambien
             poseo conocimientos de diseño, instalacion, puesta en producción, pruebas y mantenimiento de sistemas de
-            software. Manejo avanzado de distintas plataformas, lenguajes de programación y distintos frameworks en el
+            software.Poseo manejo avanzado de distintas plataformas, lenguajes de programación y distintos
+            frameworks en
+            el
             Backend y Frontend. Puedo trabajar en
-            forma independiente,freelance o en equipo con otros desarrolladores en un entornno corporativo.</p><br>
+            forma independiente,freelance o en equipo con otros desarrolladores en un entorno corporativo.</p><br>
+
         <br>
         <hr>
+
     </article>
     <hr>
     <aside>
@@ -126,17 +139,14 @@
         <div id="container_form">
             <form>
                 <label for="nombre">Nombre</label><br>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre..">
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre.." required>
 
                 <label for="apellido">Apellido</label><br>
-                <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido..">
+                <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido.." required>
 
-                <label for="pais">País de Origen</label><br>
-                <select id="pais" name="pais">
-                    <option value="argentina">Argentina</option>
-                    <option value="estados_unidos">Estados Unidos</option>
-                    <option value="uruguañl">Uruguay</option>
-                </select>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" placeholder="Ingrese su email..." required>
+
 
                 <input type="button" id="boton_enviar" value="Enviar">
             </form>
@@ -149,18 +159,24 @@
     <hr>
 
     <footer>
-        <div id=notas>
+        <div id="notas">
             <img id="compu" src="https://cdn.pixabay.com/photo/2015/06/24/15/45/computer-820281_960_720.jpg"
                 alt="Imagen de Computadora y Libreta">
-
         </div>
-        <h2> <i class="fa-solid fa-pen"></i>Notas del Proyecto</h2>
-        <ul>
-            <li>El perfil y los datos del curriculum son ficticios, se utilizaron datos generados al azar de la página
-                RANDON USER GENERATOR.</li>
-            <li> Se ulizaron fuentes de GOOGLE FONTS e iconos de FONTAWESOME</li>
-            <li> Creado por Alumno NESTOR OMAR DIAZ</li>
-        </ul>
+        <div id="notas2">
+            <h2> <i class="fa-solid fa-pen"></i>&nbsp Notas del Proyecto</h2>
+            <ul>
+                <li>El perfil y los datos del curriculum son ficticios, se utilizaron datos generados al azar de la
+                    página RANDON USER GENERATOR, sin usar la API.</li>
+                <li> Se ulizaron fuentes de GOOGLE FONTS e iconos de FONTAWESOME</li>
+                <li> El proyecto es para pantalla de computadora de escritorio, no es responsive, ya que no logré
+                    implementarlo, solamente agregue una media query y un breakpoint.
+                <li> No se utilizó bootstrap, debido a que todavia no pude estudiar la documentación de la librería.
+                </li>
+                </li>
+                <li> Creado por Alumno NESTOR OMAR DIAZ</li>
+            </ul>
+        </div>
 
     </footer>
     <script src="funciones.js"></script>
