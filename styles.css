@@ -232,6 +232,13 @@ aside ul li {
     background-image: url(https://cdn.pixabay.com/photo/2014/04/05/09/30/tablet-314153_960_720.png);
 }
 
+@media screen and (max-width: 900px) {
+    #formulario {
+        background-image: none;
+        width: 500px;
+        height: 500px;
+    }
+}
 
 #container_form {
     display: inline-block;
@@ -243,6 +250,16 @@ aside ul li {
     opacity: 0.9;
 
 
+}
+
+@media screen and (max-width: 900px) {
+    #container_form {
+        width: 500px;
+        height: 450px;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 #container_form label {
